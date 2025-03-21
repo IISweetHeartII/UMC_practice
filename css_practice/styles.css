@@ -10,6 +10,10 @@ body {
     background-color: #333;
     padding: 10px 20px;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -32,6 +36,10 @@ body {
 .nav-menu a {
     color: #fff;
     text-decoration: none;
+}
+
+.todo-container {
+    margin-top: 60px; /* 네비게이션 바 높이만큼 추가 */
 }
 
 .menu-icon {
